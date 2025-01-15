@@ -15,3 +15,17 @@ Main Function:
 Takes user input for the number of elements (n) and the array elements.
 Calls the reverse function to reverse the array.
 Calls the printArray function to display the reversed array.
+
+Analysis:
+Efficiency:
+
+The reversal function runs in 𝑂(𝑛) time, where 𝑛 is the size of the array.
+The space complexity is 𝑂(1), as the reversal is done in place.
+Edge Cases:
+
+If n is 0, no elements are processed, and the program gracefully handles the case.
+For a single element, the array remains unchanged.
+Limitations:
+
+The array size is fixed at 20, but the program does not handle cases where n > 20.
+If the user enters fewer than n elements, the behavior is undefined (may lead to garbage values or unexpected behavior).
